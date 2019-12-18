@@ -1,9 +1,0 @@
-[submodule "jeffService"]
-	path = carousel
-	url = https://github.com/SDC-macaroon/carousel.git
-[submodule "miaoService"]
-	path = product
-	url = https://github.com/SDC-macaroon/product.git
-[submodule "peterService"]
-	path = review
-	url = https://github.com/SDC-macaroon/review.git

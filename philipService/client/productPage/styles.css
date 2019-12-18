@@ -1,0 +1,16 @@
+.ColourPreview {
+  display: grid;
+  width: 100%;
+  grid-template: repeat(2, 1fr) / 3fr 8fr;
+}
+
+.ColourPreview>div {
+  background-size: cover;
+  background-position: center;
+}
+
+.frontPreview {
+  width: 100%;
+  padding-top: 100%;
+  grid-area: 1 / 2 / 3 / 3;
+}

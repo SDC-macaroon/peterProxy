@@ -1,0 +1,92 @@
+html, body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  float:left;
+  width: 100%;
+  white-space: nowrap;
+}
+
+li {
+  display: inline-block;
+  height: 100%;
+}
+
+#backButton:hover, #nextButton:hover {
+  background-color: #ececec;
+}
+
+
+#backButton {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  transform: scale(.8, 1);
+  width: 50px;
+  position: absolute;
+  top: 205px;
+  left: 10px;
+}
+
+#nextButton {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  transform: scale(.8, 1);
+  width: 50px;
+  position: absolute;
+  top: 205px;
+  left: 1590px;
+}
+
+.carousel {
+  margin: 20px;
+  overflow: hidden;
+  width: 1600px;
+}
+
+.carousel-container {
+  padding: 10px;
+}
+
+.carousel-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.carousel-list-item {
+  position: relative;
+  width: 380px;
+  height: 380px;
+}
+
+.carousel-list-item img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.style-name {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.style-name {
+  font-size: 16pt;
+}

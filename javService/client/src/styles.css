@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+body {
+  font-family: Montserrat;
+}
+
+html * {
+  font-family: Montserrat;
+}
+
+.reviewsModalTitle {
+  text-align: center;
+  border-bottom: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.reviewTitle {
+  color: #40354e;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.reviewBody {
+  color: #40354e;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 5px 30px 0px;
+}
+
+.reviewAuthor {
+  color: rgb(140, 149, 165);
+}
+
+.reviewButton {
+border-top: solid #F2F2F6 1px;
+width: 400px;
+color: #40354e;
+cursor:pointer;
+display:block;
+font-family:Montserrat;
+font-size:16px;
+padding-top:20px;
+text-align:left;
+font-style: normal;
+text-decoration-style: solid;
+font-weight:600;
+float: left;
+}
+
+.reviewButton:active {
+  border: solid #7BA4F9 3px;
+}
+
+.features {
+/* border: solid black 1px; */
+height: 300px;
+width: 670px;
+float: left;
+padding: 20px 30px 0px 0px;
+color: rgb(64, 53, 78);
+font-weight: 400;
+word-wrap: normal;
+}
+
+.reviewsChartContainer {
+  /* border: solid black 1px; */
+  padding-top: 20px;
+  margin-left: 32px;
+  padding-left: 32px;
+  border-left: 1px solid #f2f2f6;
+  width: 800px;
+  height: 300px;
+  float: left;
+}
+
+.reviewsChart {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f2f2f6;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.jli {
+  margin-top: 10px;
+  display: list-item;
+}
+
+.jli1 {
+  margin-top:0;
+}
+
+.featuresList {
+  white-space: normal;
+}
+
+.featuresTitle {
+  padding: 10px 10px 15px 15px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.reviewsContainer {
+  display: flex;
+  width: 1500px;
+  /* border: solid black 1px; */
+}
+
+.summaryOuterBox {
+  display: block;
+}
+
+.summaryInnerBox {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.summaryLine {
+  display: flex;
+  align-items: center;
+}
+
+.summaryStars {
+  display: flex;
+}
+
+.summaryHistogram {
+  display: block;
+  margin-left: 16px;
+  line-height: 13px;
+  padding-bottom: 7px;
+}
+
+.line {
+  height: 4px;
+  width: 125px;
+}
+
+.dv-star-rating-star {
+  /* margin: 0; */
+  margin-right: 2px;
+  margin-bottom: 0px;
+}
+
+.aStar {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+
+.reviewSummaryTitle {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dropDown {
+  display: flex;
+  justify-content: flex-end;
+}
