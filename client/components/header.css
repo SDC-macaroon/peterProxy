@@ -1,0 +1,173 @@
+.Header {
+  font-family: 'Khula', sans-serif;
+}
+
+.Header>.promotion {
+  background-color: slateblue;
+  color: white;
+  font-size: 24px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.promotion>.deal {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: #0004;
+  padding: 0 8px;
+}
+
+.headerLinks {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+  background-color: lightgrey;
+  color: darkslategrey;
+  font-size: 20px;
+}
+
+.headerLink {
+  margin: 0 8px;
+}
+
+.headerBar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.headerBar>.redBobble {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.headerBar div {
+  margin-right: 15px;
+}
+
+.headerBar>.redBobble>.logo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  padding-top: 8px;
+  color: white;
+  text-align: center;
+}
+
+.headerBar>.redBobble>.name {
+  padding-top: 8px;
+}
+
+.headerBar>.search {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+.headerBar>.search:hover {
+  box-shadow: 0 2px 5px lightgrey;
+}
+
+.headerBar>.search>input {
+  font-family: 'Khula', 'sans-serif';
+  padding: 10px;
+  border-width: 0;
+  background-color: lightgrey;
+  border-radius: 5px 0 0 5px;
+}
+
+.headerBar>.search>.submit {
+  height: 100%;
+  margin-right: 0;
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+.headerBar>.buttons {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 0;
+}
+
+.headerBar>.buttons span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.headerBar>.buttons>.favourite {
+  color: red;
+  transform: scale(1.25);
+}
+
+.menuBar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.menuBar>.menu:hover {
+  color: red;
+}
+
+.menuBar .menu>.heading {
+  text-align: center;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.menuBar>a {
+  color: black;
+}
+
+.menuBar>a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.menuBar>.menu>.popup>.spacer {
+  z-index: -1;
+  height: 10px;
+}
+
+.menuBar>.menu>.popup {
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.menuBar>.menu>.popup>.menuItems {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 25px;
+  background-color: white;
+  box-shadow: 0 5px 10px 2px #0004;
+}
+
+
+.menuBar>.menu>.popup>.menuItems>.menuItem {
+  padding: 10px 0;
+}
+
+.menuBar>.menu>.heading:hover + .popup {
+  visibility: visible;
+}
+
+.menuBar>.menu>.popup:hover {
+  visibility: visible;
+}
+
+.menuBar>.menu>.popup>.menuItems>.menuItem:hover {
+  color: red;
+}
+
+.clickable,
+.menuBar>.menu {
+  cursor: pointer;
+}
