@@ -43,7 +43,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.7.13"
   }
 }
